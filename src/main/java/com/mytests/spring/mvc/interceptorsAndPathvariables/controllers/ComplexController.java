@@ -6,6 +6,7 @@ import org.springframework.web.bind.annotation.*;
  * Complex test for https://youtrack.jetbrains.com/issue/IDEA-232212
  **/
 @RestController
+@RequestMapping("/test")
 public class ComplexController {
 
     @RequestMapping("/complex/{pathvar1}/{pathvar2}")

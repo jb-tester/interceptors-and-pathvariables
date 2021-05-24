@@ -5,6 +5,7 @@ import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
+@RequestMapping("/test")
 public class MyController1 {
 
     @RequestMapping("/reqparams")
